@@ -59,6 +59,7 @@ for i = 1:count1
     
     ratio_Equivdiameter_perimeter = (shapes_EquivDiameter)./shapes_perimeter
     REP = ratio_Equivdiameter_perimeter
+    
     ratio_majoraxislength_minoraxislength = shapes_MajorAxisLength./shapes_MinorAxisLength
     RMM = ratio_majoraxislength_minoraxislength
 
@@ -83,6 +84,7 @@ for i = 1:count1
         std(RMM),max(RMM),min(RMM),prctile(RMM,20),prctile(RMM,40), ...
         prctile(RMM,60),prctile(RMM,80)];
     ratio_num_lightspots_shapes1 = number_of_lightspot/number_of_shapes
+    
     features = [number_of_shapes, shapes_solidity1,shapes_perimeter1,shapes_circularity1, ...
         shapes_Eccentricity1,number_of_lightspot,entropy_1, ratio_Equivdiameter_perimeter1, ...
         ratio_majoraxislength_minoraxislength1,ratio_num_lightspots_shapes1]
