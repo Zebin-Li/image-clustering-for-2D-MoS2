@@ -1,7 +1,6 @@
 %% extract features from original optical images
-imds = imageDatastore ...
-    (fullfile('C:\Users\lizeb\Box\research projects\Images for Deep Learning\', ...
-    {'new images 4.4.2020'}),'LabelSource','foldernames', 'FileExtensions', {'.tif'});
+imds = imageDatastore(fullfile('E:\',{'new images 4.4.2020'}), ...
+'LabelSource','foldernames','FileExtensions', {'.tif'});
 count = countEachLabel(imds);
 count1 = table2array(count(1,2))
 
