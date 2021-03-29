@@ -16,7 +16,7 @@ for i = 1:count1
       for j = 1:n
        if R(i,j) > 190
           R(i,j) = 190;
-       if G(i,j) < 206  %manully tuned for lightspots
+       if G(i,j) < 206  %manually tuned for lightspots
           G(i,j) = 1;
        end
       end
