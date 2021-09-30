@@ -1,5 +1,5 @@
 # Image Clustering for 2D MoS2
-This is the main code for paper "Quantifying the 2D MoS2 Material Growth via Image Clustering".
+This is the main code for paper "Quantifying the CVD-grown two-dimensional materials via image clustering".
 
 The clusterinig result shown in paper is one sample of the clustering results, since the clustering algorithm may fall into different local optimums every time.
 
